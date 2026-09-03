@@ -1,5 +1,10 @@
+export interface Member {
+  name: string;
+  imageSrc: string;
+}
+
 export interface types {
-  members:string[];
+  members: Member[];
   imageSrc:string;
   name:string;
 }
